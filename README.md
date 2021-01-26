@@ -26,3 +26,6 @@ There are few metrics which we can think of like Accuracy Score (Prone to errors
 * Decision Tree
 * GBDT
 * LSTM
+
+# Best Model and its performance-
+LSTM outperformed the other ML techniques. The reusults which I got are like this:
