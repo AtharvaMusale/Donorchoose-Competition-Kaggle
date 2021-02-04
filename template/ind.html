@@ -14,12 +14,32 @@
 
 <body>
  <div class="login">
-    <h1>Toxic Comment Detection</h1>
+    <h1>Donorchoose Application Acceptance</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="POST">
-        <input type="text" name="comment" placeholder="comment_text" required="required" >
+
+	<input type="text" name="teacher_prefix" placeholder="teacher_prefix" required="required" ><br>
+
+	<input type="text" name="school_state" placeholder="school_state" required="required" ><br>
+
+	<input type="text" name="project_grade_category" placeholder="project_grade_category" required="required" ><br>
+
+	<input type="text" name="project_subject_categories" placeholder="project_subject_categories" required="required" ><br>
+
+	<input type="text" name="project_subject_subcategories" placeholder="project_subject_subcategories" required="required" ><br>
+
+	<input type="text" name="project_title" placeholder="project_title" required="required" ><br>
+
+	<input type="text" name="teacher_number_of_previously_posted_projects" placeholder="teacher_number_of_previously_posted_projects" required="required" ><br>
         
+	<input type="text" name="project_is_approved" placeholder="project_is_approved" required="required" ><br>
+	
+	<input type="text" name="essay" placeholder="essay" required="required" ><br>
+	
+	<input type="text" name="price" placeholder="price" required="required" ><br>
+
+	<input type="quantity" name="price" placeholder="quantity" required="required" ><br>
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
