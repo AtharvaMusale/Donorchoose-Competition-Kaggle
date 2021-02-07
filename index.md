@@ -30,3 +30,4 @@ There are few metrics which we can think of like Accuracy Score (Prone to errors
 # Best Model and its performance-
 LSTM outperformed the other ML techniques. The reusults which I got are like this:
 ![screenshot](https://github.com/AtharvaMusale/DonorsChoose_org_Application_Acceptance/blob/main/ss.png)
+ 
